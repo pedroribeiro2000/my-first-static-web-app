@@ -1,0 +1,23 @@
+#contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+}
+
+aside .widget:nth-of-type(1) ul{
+    display: flex;
+    flex-direction: row;
+}
+
+aside .widget:nth-of-type(1) ul li:nth-child(4){
+    order: -1;
+}

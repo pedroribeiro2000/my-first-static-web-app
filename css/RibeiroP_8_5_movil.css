@@ -1,0 +1,36 @@
+#contenedor{
+    display: grid;
+
+}
+
+header ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header{
+    display: grid;
+    grid-row: 1 / 2;
+}
+
+aside{
+    display: grid;
+    grid-row: 2 / 3;
+}
+
+aside .widget:nth-of-type(1) ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main{
+    display: grid;
+    grid-row: 3 / 4;
+}
+
+footer{
+    display: grid;
+    grid-row: 4 / 5;
+}
+
+

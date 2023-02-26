@@ -1,0 +1,42 @@
+#contenedor{
+    margin: 20px auto ;
+    max-width: 1300px;
+    min-width: 1000px;
+}
+
+header{
+    width: 100%;
+}
+
+header li:nth-child(1){
+    float: left;
+}
+
+main{
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+}
+
+.posts article h2{
+    clear: both;
+}
+
+.posts article div{
+    float: left;
+    width: 50%;
+}
+
+.posts #Productos h3{
+    clear: left;
+}
+
